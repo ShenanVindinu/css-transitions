@@ -9,55 +9,42 @@
 
     <style>
 
-
-
-        main {
-            width: 50vw;
-            height: 25.7vw;
-            border: 5px solid red;
-
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin: auto;
-
+        body {
             overflow: hidden;
         }
 
 
-        main>section>div {
-            width: 50vw;
-            height: 50vh;
+        section>div {
+            width: 100vw;
+            height: 100vh;
             background-color: greenyellow;
         }
 
-        main>section>div:first-child {
+        section>div:first-child {
             background-image: url("../assets/slide1.jpeg");
             background-position: center;
             background-size: cover;
         }
 
-        main>section>div:nth-child(2) {
+        section>div:nth-child(2) {
             background-image: url("../assets/slide2.jpeg");
             background-position: center;
             background-size: cover;
         }
 
-        main>section>div:nth-child(3) {
+        section>div:nth-child(3) {
             background-image: url("../assets/slide3.jpeg");
             background-position: center;
             background-size: cover;
         }
 
-        main>section>div:last-child {
+        section>div:last-child {
             background-image: url("../assets/slide4.jpeg");
             background-position: center;
             background-size: cover;
         }
 
-        main>section {
+        section {
             display: flex;
             position: absolute;
             animation-name: animation;
@@ -93,7 +80,7 @@
 <body>
 
 
-<main>
+
 
     <section>
         <div>
@@ -113,7 +100,6 @@
         </div>
     </section>
 
-</main>
 
 
 <script src="../assets/fontawesome-free-6.5.1-web/js/all.min.js"></script>
